@@ -19,16 +19,17 @@ public class Main {
 	}
 	
 	
-	public static replaceWithStar(String str, int n) {
-		StringBuilder sb = new StringBuilder();
+	public static void replaceWithStar(String str) {
+		StringBuilder newString = new StringBuilder();
 
-	    for(int i=0, n=str.length;i<n;i++){
-	        if(i%n!=0) {
-	            sb.append("*");
+	    for(int i=0; i<str.length(); i++){
+	        if(i%2!=0) {
+	        	newString.append("*");
+	        }
 	        else {
-	            sb.append(str.charAt(i));
+	        	newString.append(str.charAt(i));
 	        }
 	     }
-	     return sb.toString();
+	     System.out.println(newString.toString());
 	}
 }
