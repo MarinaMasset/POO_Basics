@@ -6,6 +6,18 @@ public class Main {
 		displayLowerAndUpperCase("Hello everyone!");
 		replaceWithStar("Hello everyone!");
 		Library.displayBook("Lord of the Ring", "JRR", "Tolkien", "Fantastique", "0261102354");
+		Triangle.calculatePerimeter(5.0, 5.0, 5.0);
+		Triangle.calculateArea(5.0, 4.33);
+	
+		Maths operation = new Maths();
+		operation.add(2, 3);
+		operation.substract(2, 3);
+		operation.multiply(2, 3);
+		operation.divide(2, 3);
+		Student StudentInfo = new Student();
+		StudentInfo.calculateAverage(12, 8, 15, 13);
+		StudentInfo.displayInitials("Marina", "Masset");
+		StudentInfo.displayTrigram("Marina", "Masset");
 	}
 	
 	public static void countCharacters(String str) {
