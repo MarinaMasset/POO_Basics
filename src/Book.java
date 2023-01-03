@@ -1,12 +1,16 @@
 
 public class Book {
 
-	private String author;
 	private String title;
+	private String authorName;
+	private String authorFirstName;
+	private String category;
+	private String isbn;
 
-	Book (String title, String author) {
+	Book(String title, String authorFirstName, String authorName, String category, String isbn) {
 		this.title = title;
-		this.author = author;
-		System.out.println("Le livre "+title+" a été écrit par "+author);
+		this.authorName = authorName;
+		this.authorFirstName = authorFirstName;
+		this.category = category;
 	}
 }

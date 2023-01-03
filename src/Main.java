@@ -5,6 +5,7 @@ public class Main {
 		countCharacters("Hello everyone!");
 		displayLowerAndUpperCase("Hello everyone!");
 		replaceWithStar("Hello everyone!");
+		Library.displayBook("Lord of the Ring", "JRR", "Tolkien", "Fantastique", "0261102354");
 	}
 	
 	public static void countCharacters(String str) {
